@@ -1,0 +1,36 @@
+.complaintContentGrid {
+    width: 60vh;
+    height: 44vh;
+    margin: 2vw;
+    text-align: start;
+    padding: 2vh;
+    border-radius: 4vh;
+    box-shadow: 1px 1px 10px #3628748a;
+}
+.complaintGrid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 50vw 50vw;
+}
+.complaintContentGrid div {
+    padding: 2vh;
+}
+.complaintContentGrid button {
+    float: right;
+    color: white;
+    border: none;
+    width: 18vh;
+    height: 6vh;
+    border-radius: .5vh;
+    background-color: rgb(255, 74, 2);
+    margin-right: 1vw;
+}
+.complaintContentGrid button:hover {
+    background-color: #d6452bd5;
+}
+#completed {
+    background-color: green;
+}
+#pending {
+    background-color: red;
+}

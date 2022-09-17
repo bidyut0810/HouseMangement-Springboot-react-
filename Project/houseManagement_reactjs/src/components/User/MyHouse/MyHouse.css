@@ -1,0 +1,67 @@
+.welcomeName {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.houseBookHeading {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 6vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#BookHouse {
+    width: 12vh;
+    height: 5vh;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    margin-left: 5vw;
+    border-radius: 1vh;
+    background-color: #362874;
+    box-shadow: 1px 1px 10px #3628748a;
+}
+.houseCard {
+    width: 90vw;
+    height: 35vw;
+    margin: 5vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 2vh;
+    box-shadow: 1px 1px 10px #3628748a;
+}
+.houseImage {
+    width: 40vw;
+    margin-top: 4vh;
+    margin-left: 4vh;
+    height: 62vh;
+    border-radius: 2vh;
+}
+.houseDetails {
+    width: 55vh;
+    height: 65vh;
+    margin: 2vw;
+    border: none;
+}
+.myHouseCardTitle {
+    margin-bottom: 2vw;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#changeBookHouse {
+    border: none;
+    width: 8vw;
+    border-radius: 10px;
+    height: 6vh;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    background-color:#362874;
+    box-shadow: 1px 1px 1px #3628748a;
+}
+.warnHouse {
+    text-align: center;
+}

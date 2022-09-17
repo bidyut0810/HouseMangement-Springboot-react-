@@ -1,0 +1,46 @@
+Employee:
+
+name-
+age-
+duration_of_work-
+current address-
+rank/designation-
+currunt house type-
+points-age+rnk+duration_of_work(in yrs)
+employeeid-
+email_id-
+
+login_details_table:
+employee_id-
+password-
+
+
+House:
+
+houseId
+houseName-
+location
+image-
+status-
+housetype-1 to 5
+
+Complaint_Table:
+complaint_id-
+employee_id-
+house_id-
+time_stamp-
+complaint_type-(elec,water,drainage,others)
+complaint_desc-
+
+rnk 1->5BHK
+rnk 2->4BHK
+rnk 3->3Bhk
+rnk 4->2Bhk
+rnk 5->1Bhk
+
+2 persons with same rnk will get house according to 
+
+deciding_pts->
+
+
+points = age*2 + working exp * 10

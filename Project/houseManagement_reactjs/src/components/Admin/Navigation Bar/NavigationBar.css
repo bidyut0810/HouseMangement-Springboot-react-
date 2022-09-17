@@ -1,0 +1,33 @@
+.nav {
+    padding: 1vh;
+    background-color: #760094;
+    text-align: center;
+    box-shadow: 1px 1px 15px #3628748a;
+}
+.navbar-link {
+    margin-left: 22vw;
+    padding: 1vh;
+    text-align: center;
+}
+.navbar-link a {
+    margin-left: 0.5vw;
+    margin-right: 2vw;
+    color: white;
+    text-decoration: none;
+}
+.navbar-link img:hover {
+    transform: scale(1.1);
+}
+.navbar-link a:hover,
+.nav-logout a:hover {
+    transform: scale(1.1);
+}
+.nav-logout {
+    margin-left: 20vw;
+}
+.nav-logout a {
+    margin-left: 0.5vw;
+    margin-right: 2vw;
+    color: white;
+    text-decoration: none;
+}

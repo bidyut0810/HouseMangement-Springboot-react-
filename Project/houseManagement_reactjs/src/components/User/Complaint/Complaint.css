@@ -1,0 +1,41 @@
+#addComplaint {
+    border: none;
+    border-radius: 10px;
+    padding: 1vw;
+    margin-top: 2vw;
+    margin-right: 2vw;
+    float: right;
+    margin-bottom: 2vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    background-color:#1f6b8f;
+    box-shadow: 1px 1px 1px #3628748a;
+}
+#complete {
+    width: 5vw;
+    margin-left: 1vw;
+    border: none;
+    margin-top: 8px;
+    background-color: rgb(53, 145, 16);
+    box-shadow: 1px 1px 10px #3628748a;
+}
+#descrption {
+    height: 15vh;
+}
+#addComplaint {
+    width: 10vw;
+    margin-left: 25vw;
+    border: none;
+    margin-top: 8px;
+    background-color: rgb(16, 109, 145);
+    box-shadow: 1px 1px 10px #3628748a;
+}
+.headingAddComplaint {
+    text-align: center;
+    font-weight: 800;
+    margin-top: 4vh;
+    color: #1f6b8f;
+}

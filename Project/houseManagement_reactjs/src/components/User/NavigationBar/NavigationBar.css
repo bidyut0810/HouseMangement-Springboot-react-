@@ -1,0 +1,47 @@
+.navUser {
+    padding: 1vh;
+    background-color: #007194;
+    text-align: center;
+    box-shadow: 1px 1px 15px #3628748a;
+}
+.pointDiv {
+    float: right;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.point {
+    width: 10vh;
+    float: right;
+}
+.pointValue {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 1vh;
+    margin-right: 1vw;
+}
+.navbarUser-link {
+    margin-left: 26vw;
+    padding: 1vh;
+    text-align: center;
+}
+.navbarUser-link a {
+    margin-left: 0.5vw;
+    margin-right: 2vw;
+    color: white;
+    text-decoration: none;
+}
+.navbarUser-link img:hover {
+    transform: scale(1.1);
+}
+.navbarUser-link a:hover,
+.navUser-logout a:hover {
+    transform: scale(1.1);
+}
+.navUser-logout {
+    margin-left: 30vw;
+}
+.navUser-logout a {
+    margin-right: 2vw;
+    color: white;
+    text-decoration: none;
+}
