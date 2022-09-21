@@ -9,12 +9,12 @@ import javax.persistence.Id;
 public class House {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public int houseId;
-	public String houseName;
-	public String location;
-	public String imageUrl;
-	public String status;
-	public String houseType;
+	private int houseId;
+	private String houseName;
+	private String location;
+	private String imageUrl;
+	private String status;
+	private String houseType;
 	
 	public House(int houseId, String houseName, String location, String imageUrl, String status, String houseType) {
 		super();
