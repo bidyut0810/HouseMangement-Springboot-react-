@@ -9,12 +9,12 @@ import javax.persistence.Id;
 public class Complaint {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public int complaintId;
-	public int employeeId;
-	public int houseId;
-	public String complaintType;
-	public String complaintDescrption;
-	public String status;
+	private int complaintId;
+	private int employeeId;
+	private int houseId;
+	private String complaintType;
+	private String complaintDescrption;
+	private String status;
 
 	public Complaint() {
 
