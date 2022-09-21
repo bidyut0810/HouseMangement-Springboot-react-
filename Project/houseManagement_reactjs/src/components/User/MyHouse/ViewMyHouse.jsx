@@ -87,6 +87,7 @@ export default function ViewMyHouse() {
       console.log(res.data);
     });
   }
+  if(house.length===0){return <p>NO HOUSES AVAILABLE</p>}
   return (
     <div>
       <div className="pointDiv">
