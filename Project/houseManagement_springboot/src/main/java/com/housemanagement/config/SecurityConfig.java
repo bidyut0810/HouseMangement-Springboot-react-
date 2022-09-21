@@ -49,6 +49,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and().exceptionHandling().and().sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS).and().cors().disable();
 
-        http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);;
+        http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
+          http.cors().configurationSource(new CorsConfigurationSource() {
+            @Override
+            public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
+                CorsConfiguration config = new CorsConfiguration();
+                config.setAllowedHeaders(Collections.singletonList("*"));
+                config.setAllowedMethods(Collections.singletonList("*"));
+                config.addAllowedOrigin("http://localhost:3000");//you can store this url in any env variable and store in any other file for better IT practises
+                config.setAllowCredentials(true);
+                return config;
+            }
+          });
     }
 }
