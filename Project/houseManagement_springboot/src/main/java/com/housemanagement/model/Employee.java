@@ -9,17 +9,17 @@ import javax.persistence.Id;
 public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public int employeeId;
-	public String name;
-	public String emailId;
-	public int age;
-	public int workingExperience;
-	public String address;
-	public String designation;
-	public int point;
-	public int houseId;
-	public String houseType;
-	public String status;
+	private int employeeId;
+	private String name;
+	private String emailId;
+	private int age;
+	private int workingExperience;
+	private String address;
+	private String designation;
+	private int point;
+	private int houseId;
+	private String houseType;
+	private String status;
 	
 	public Employee() {
 
