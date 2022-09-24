@@ -1,20 +1,16 @@
 import axios from "axios";
-import authHeader from "./AuthHeader";
-
 
 const REST_API_URL = "http://localhost:8081";
 
-
-
-// axios.interceptors.request.use(function (config ) {
-//   const token = localStorage.getItem('token');
-//   if (token) {
-//       config.headers.Authorization = `Bearer ${token}`;
-//   }
-//   return config;
-// }, function (error) {
-//   return Promise.reject(error);
-// });
+axios.interceptors.request.use(function (config ) {
+  const token = localStorage.getItem('token');
+  if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
+}, function (error) {
+  return Promise.reject(error);
+});
 
 
 
@@ -31,8 +27,7 @@ class Service {
     return axios.get(REST_API_URL + "/checkEmployeeId/" + empId);
   }
   login(empId, password) {
-    console.log("hello ther")
-    return axios.get(REST_API_URL + "/login/" + empId + "/" + password,{headers:authHeader()});
+    return axios.get(REST_API_URL + "/login/" + empId + "/" + password);
   }
   authenticate(userDetails) {
     
