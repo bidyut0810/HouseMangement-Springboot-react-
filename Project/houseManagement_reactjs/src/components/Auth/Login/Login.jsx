@@ -48,7 +48,7 @@ export default function Login( {authenticate} ) {
             }else {
               toast.warn("Invalid Credentials");
             }
-          }).catch(toast.warn("sorry"))
+          })
 
         })
 
